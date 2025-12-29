@@ -8,6 +8,7 @@
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/css/main.css" rel="stylesheet">
 </head>
+
 <body style="background-color: #111; color: white;">
   <main class="main">
     <div class="page-title dark-background" style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('assets/img/portfolio/network-bg.jpg'); background-size: cover; padding: 100px 0;">
@@ -16,6 +17,7 @@
         <p class="lead">Conception et mise en œuvre d'une infrastructure réseau virtuelle</p>
       </div>
     </div>
+
     <section class="section" style="padding: 60px 0;">
       <div class="container">
         <div class="row gy-5">
@@ -27,30 +29,55 @@
                 <li><strong>Systèmes :</strong> Linux Ubuntu (Serveur Apache)</li>
                 <li><strong>Gestion :</strong> Diagramme de Gantt</li>
               </ul>
+              <div class="mt-4">
+                <h5 style="color: #212529;">Services déployés :</h5>
+                <span class="badge bg-primary">HTTP (Apache)</span>
+                <span class="badge bg-success">DNS</span>
+                <span class="badge bg-warning text-dark">DHCP</span>
+              </div>
             </div>
           </div>
+
           <div class="col-lg-8">
             <h2>De la simulation à la virtualisation</h2>
-            <p>Objectif : concevoir une architecture réseau complète, la planifier et la déployer sur des machines virtuelles.</p>
+            <p>Ce projet marque une étape clé : le passage de la théorie à la pratique. L'objectif est de concevoir une architecture réseau complète, de la planifier rigoureusement, puis de la rendre fonctionnelle.</p>
+
             <div class="row mb-4">
               <div class="col-md-6">
-                <h4 style="color: #ff9900;"><i class="bi bi-diagram-3"></i> 1. Planification</h4>
-                <p>Réalisation d'un diagramme de Gantt et modélisation Draw.io.</p>
+                <h4 style="color: #ff9900;"><i class="bi bi-diagram-3"></i> 1. Conception & Planification</h4>
+                <ul>
+                  <li>Réalisation d'un <strong>diagramme de Gantt</strong>.</li>
+                  <li>Modélisation de l'infrastructure via <strong>Draw.io</strong>.</li>
+                  <li>Recherche documentaire sur les protocoles.</li>
+                </ul>
               </div>
               <div class="col-md-6">
-                <h4 style="color: #ff9900;"><i class="bi bi-cpu"></i> 2. Simulation</h4>
-                <p>Tests de configuration et capture de trames via Packet Tracer.</p>
+                <h4 style="color: #ff9900;"><i class="bi bi-cpu"></i> 2. Simulation & Test</h4>
+                <ul>
+                  <li>Configuration logicielle des routeurs.</li>
+                  <li>Capture et analyse de trames.</li>
+                  <li>Rédaction d'un compte-rendu technique.</li>
+                </ul>
               </div>
             </div>
+
             <div class="content-box" style="background: #fff8e1; border: 2px solid #ff9900; padding: 25px; border-radius: 10px; color: #212529;">
-              <h4 style="color: #bf7200;"><i class="bi bi-server"></i> Mise en œuvre réelle</h4>
-              <p>Déploiement de services sur Ubuntu : Installation d'Apache2, DNS et DHCP via Dnsmasq.</p>
+              <h4 style="color: #bf7200;"><i class="bi bi-server"></i> Mise en œuvre réelle (Virtualisation)</h4>
+              <p>Déploiement final sur <strong>Ubuntu</strong> :</p>
+              <ul>
+                <li><strong>Serveur Web :</strong> Installation d'Apache2.</li>
+                <li><strong>Services IP :</strong> DNS et DHCP via <em>Dnsmasq</em>.</li>
+                <li><strong>Tests :</strong> Preuve de fonctionnement via Wireshark.</li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
     </section>
   </main>
-  <footer class="text-center py-5"><a href="index.html#portfolio" class="btn btn-outline-warning" style="border-radius: 50px; color: #ff9900; border-color: #ff9900;">← Retour au Portfolio</a></footer>
+
+  <footer class="text-center py-5">
+    <a href="index.html#portfolio" class="btn btn-outline-warning" style="border-radius: 50px; color: #ff9900; border-color: #ff9900;">← Retour au Portfolio</a>
+  </footer>
 </body>
 </html>
