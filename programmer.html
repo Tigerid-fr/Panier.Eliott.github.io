@@ -8,8 +8,7 @@
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/css/main.css" rel="stylesheet">
 </head>
-
-<body>
+<body style="background-color: #111; color: white;">
   <main class="main">
     <div class="page-title dark-background" style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('assets/img/portfolio/data-bg.jpg'); background-size: cover; padding: 100px 0;">
       <div class="container text-center">
@@ -17,68 +16,36 @@
         <p class="lead">SAé 1.05 - Traitement et Visualisation de Données Publiques</p>
       </div>
     </div>
-
-    <section class="section">
+    <section class="section" style="padding: 60px 0;">
       <div class="container">
         <div class="row gy-5">
-          
           <div class="col-lg-4">
-            <div class="portfolio-info" style="background: #fff9f0; padding: 30px; border-left: 5px solid #f39c12; border-radius: 0 10px 10px 0;">
-              <h3>Fiche Projet</h3>
+            <div class="portfolio-info" style="background: #fff3e0; padding: 30px; border: 2px solid #f39c12; border-radius: 10px; color: #212529;">
+              <h3 style="color: #e65100;">Fiche Projet</h3>
               <ul class="list-unstyled">
-                <li><strong>Responsable :</strong> Shahin Gelareh</li>
                 <li><strong>Langage :</strong> Python</li>
-                <li><strong>Gestion :</strong> GitLab (Versioning & Readme)</li>
-                <li><strong>Workflow :</strong> CSV → JSON → Graphique</li>
+                <li><strong>Gestion :</strong> GitLab Workflow</li>
+                <li><strong>Workflow :</strong> CSV → JSON</li>
               </ul>
-              <div class="mt-4">
-                <h5>Outils utilisés :</h5>
-                <span class="badge bg-dark">Pandas / JSON</span>
-                <span class="badge bg-warning text-dark">QuickChart API</span>
-                <span class="badge bg-secondary">GitLab Workflow</span>
-              </div>
             </div>
           </div>
-
           <div class="col-lg-8">
-            <h2>Transformer la donnée brute en information visuelle</h2>
-            <p>
-              Ce projet en équipe consiste à réaliser un script capable d'automatiser le traitement de données ouvertes issues de <strong>data.gouv.fr</strong>. L'objectif est de maîtriser tout le cycle de vie de la donnée : récupération, agrégation, transformation et affichage graphique.
-            </p>
-
-            <div class="content-box mb-4" style="background: #f8f9fa; padding: 20px; border-radius: 10px; border: 1px solid #f39c12;">
-              <h4><i class="bi bi-gear-fill"></i> Étapes de réalisation</h4>
+            <h2>Transformer la donnée brute</h2>
+            <p>Script d'automatisation pour traiter des données ouvertes de data.gouv.fr.</p>
+            <div class="content-box mb-4" style="background: #fff3e0; padding: 25px; border-radius: 10px; border: 2px solid #f39c12; color: #212529;">
+              <h4 style="color: #e65100;"><i class="bi bi-gear-fill"></i> Étapes de réalisation</h4>
               <ul>
-                <li><strong>Extraction :</strong> Analyse et récupération de fichiers <strong>CSV</strong>.</li>
-                <li><strong>Traitement :</strong> Agrégation des données (calcul de moyennes, maximums, filtrages spécifiques).</li>
-                <li><strong>Formatage :</strong> Transformation des résultats en <strong>JSON</strong> pour l'interopérabilité.</li>
-                <li><strong>Visualisation :</strong> Transmission des données à l'API <strong>QuickChart.io</strong> pour générer des rendus graphiques dynamiques.</li>
+                <li><strong>Extraction :</strong> Récupération CSV.</li>
+                <li><strong>Traitement :</strong> Agrégation et filtrage.</li>
+                <li><strong>Visualisation :</strong> API QuickChart.io.</li>
               </ul>
             </div>
-
-            <h4><i class="bi bi-people-fill"></i> Méthodologie et Collaboration</h4>
-            <p>
-              Le projet repose sur une utilisation rigoureuse de <strong>GitLab</strong> pour le stockage des scripts et de la documentation (Markdown). 
-            </p>
-            <ul>
-              <li>Planification des tâches et répartition équitable du travail.</li>
-              <li>Mise à jour régulière via Git (commits/pushs individuels).</li>
-              <li>Rédaction d'un fichier <strong>README.md</strong> pour guider les utilisateurs.</li>
-            </ul>
-
-            <div class="alert alert-warning mt-4">
-              <i class="bi bi-graph-up me-2"></i>
-              <strong>Bilan :</strong> Ce projet valide ma capacité à coder une solution complète de traitement de données tout en travaillant dans un environnement collaboratif professionnel.
-            </div>
+            <p>Projet validant ma capacité à coder une solution complète en environnement collaboratif.</p>
           </div>
-
         </div>
       </div>
     </section>
   </main>
-
-  <footer class="text-center py-5">
-    <a href="index.html#portfolio" class="btn btn-outline-warning text-dark"><i class="bi bi-arrow-left"></i> Retour au Portfolio</a>
-  </footer>
+  <footer class="text-center py-5"><a href="index.html#portfolio" class="btn btn-outline-warning" style="border-radius: 50px; color: #f39c12; border-color: #f39c12;">← Retour au Portfolio</a></footer>
 </body>
 </html>
