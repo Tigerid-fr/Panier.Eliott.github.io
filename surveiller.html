@@ -8,6 +8,7 @@
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/css/main.css" rel="stylesheet">
 </head>
+
 <body style="background-color: #111; color: white;">
   <main class="main">
     <div class="page-title dark-background" style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('assets/img/portfolio/signal-bg.jpg'); background-size: cover; padding: 100px 0;">
@@ -16,9 +17,11 @@
         <p class="lead">Une première approche des signaux physiques de transmission</p>
       </div>
     </div>
+
     <section class="section" style="padding: 60px 0;">
       <div class="container">
         <div class="row gy-5">
+          
           <div class="col-lg-4">
             <div class="portfolio-info" style="background: #e0f2f1; padding: 30px; border: 2px solid #2ec4b6; border-radius: 10px; color: #212529;">
               <h3 style="color: #1b7a72;">Infos Projet</h3>
@@ -26,26 +29,44 @@
                 <li><strong>Compétence :</strong> Surveiller / Analyser</li>
                 <li><strong>Formation :</strong> 6 séances de découverte</li>
                 <li><strong>Outils :</strong> Simulation de signaux</li>
+                <li><strong>État :</strong> Bases acquises</li>
               </ul>
             </div>
           </div>
+
           <div class="col-lg-8">
-            <h2>Comprendre le voyage des données</h2>
-            <p>Étude de la couche physique : j'ai appris que chaque bit envoyé est un signal physique sujet aux perturbations.</p>
-            <div class="content-box mb-4" style="background: #e0f2f1; padding: 20px; border-radius: 10px; border: 2px solid #2ec4b6; color: #212529;">
+            <h2>Comprendre comment les données voyagent</h2>
+            <p>
+              Cette SAE a été l'occasion de découvrir un aspect très concret, mais aussi assez complexe, des réseaux : la couche physique. J'ai appris que derrière chaque bit envoyé, il y a un signal physique qui peut être perturbé par son environnement.
+            </p>
+
+            <div class="content-box mb-4" style="background: #e0f2f1; padding: 25px; border-radius: 10px; border: 2px solid #2ec4b6; color: #212529;">
               <h4 style="color: #1b7a72;"><i class="bi bi-activity"></i> Apprentissage en TP</h4>
-              <ul style="margin: 0; padding-left: 20px;">
-                <li><strong>Décibels (dB) :</strong> Calcul des pertes de puissance.</li>
-                <li><strong>Fréquences :</strong> Limites de la bande passante.</li>
-                <li><strong>Numérisation :</strong> Transformation du signal.</li>
+              <p>Durant les séances de TP, nous avons exploré plusieurs notions fondamentales pour mesurer la qualité d'une transmission :</p>
+              <ul>
+                <li><strong>Les Décibels (dB) :</strong> Apprendre à calculer les pertes de puissance (atténuation) le long d'un câble.</li>
+                <li><strong>Les Fréquences :</strong> Observer comment la bande passante limite physiquement la vitesse de transmission.</li>
+                <li><strong>La Numérisation :</strong> Comprendre le processus de transformation d'une onde analogique en suite binaire (0 et 1).</li>
               </ul>
             </div>
-            <p>Le contrôle final a validé ma compréhension des principes essentiels du module.</p>
+
+            <h4>Mon expérience</h4>
+            <p>
+              Bien que ce module soit technique et demande une grande rigueur dans les calculs, j'ai trouvé passionnant de voir le lien direct entre les lois de la physique et le fonctionnement d'Internet. Le contrôle final a permis de valider ma compréhension de ces contraintes matérielles.
+            </p>
+
+            <div class="alert alert-info" style="background: #e0f2f1; border: 1px solid #2ec4b6; color: #212529; margin-top: 30px;">
+              <i class="bi bi-lightbulb me-2"></i>
+              <strong>Ce que j'en retiens :</strong> C'est une étape essentielle pour savoir diagnostiquer pourquoi un réseau est lent ou instable à cause du support physique utilisé.
+            </div>
           </div>
         </div>
       </div>
     </section>
   </main>
-  <footer class="text-center py-5"><a href="index.html#portfolio" class="btn btn-outline-success" style="border-radius: 50px;">← Retour au Portfolio</a></footer>
+
+  <footer class="text-center py-5">
+    <a href="index.html#portfolio" class="btn btn-outline-success" style="border-radius: 50px; padding: 10px 30px;">← Retour au Portfolio</a>
+  </footer>
 </body>
 </html>
